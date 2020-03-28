@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Etsyocalypse</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="http://127.0.0.1:3030/styles.css" />
-    <link rel="stylesheet" href="http://127.0.0.1:3030/modal.css" />
-    <link rel="stylesheet" href="http://127.0.0.1:3030/arrow.css" />
+    <script
+      src="https://kit.fontawesome.com/21cbf06742.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link rel="stylesheet" href="http://127.0.0.1:8080/style.css" /> marc's stylesheet -->
+
+    <link
+      rel="stylesheet"
+      href="http://fecrelateditems-env.eba-unfwxp3i.us-east-2.elasticbeanstalk.com/RelatedItems.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://seanservice1-env.eba-z52ut3ea.us-east-1.elasticbeanstalk.com/arrow.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://seanservice1-env.eba-z52ut3ea.us-east-1.elasticbeanstalk.com/modal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://seanservice1-env.eba-z52ut3ea.us-east-1.elasticbeanstalk.com/styles.css"
+    />
+    <style>
+      .margin-center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
   </head>
+
   <body>
-    <div id="root"></div>
-    <script src="http://127.0.0.1:3030/bundle.js"></script>
+    <div id="navigation"></div>
+    <!-- Add Everyones Services -->
+    <div class="row">
+      <div class="col-md-8 max-width margin-center">
+        <div id="imageComp"></div>
+        <div id="reviews"></div>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+    <div class="row">
+      <div id="relatedItems"></div>
+    </div>
+    <div id="footer"></div>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -24,5 +63,15 @@
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src=""></script> waiting for marc to deploy -->
+    <script src="http://reviewsetsyocalypse-env.eba-zhxs2i2m.us-east-2.elasticbeanstalk.com/bundle.js"></script>
+    <script src="http://fecrelateditems-env.eba-unfwxp3i.us-east-2.elasticbeanstalk.com/bundle.js"></script>
+    <script src="http://seanservice1-env.eba-z52ut3ea.us-east-1.elasticbeanstalk.com/bundle.js"></script>
   </body>
 </html>
